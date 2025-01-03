@@ -7,3 +7,7 @@ up:
 .PHONY: down
 down:
 	$(DOCKER_COMPOSE) down
+
+.PHONY: ps
+ps:
+	$(DOCKER_COMPOSE) ps -a
